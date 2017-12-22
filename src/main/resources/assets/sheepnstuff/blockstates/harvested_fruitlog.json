@@ -1,0 +1,44 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "sheepnstuff:harvested_fruitlog"
+    },
+    "variants": {
+        "variant": {
+            "mango": {
+                "textures": {
+                    "particle": "blocks/log_jungle",
+                    "bark": "blocks/log_jungle",
+                    "top": "blocks/log_jungle_top"
+                }
+            },
+            "apple": {
+                "textures": {
+                    "particle": "blocks/log_oak",
+                    "bark": "blocks/log_oak",
+                    "top": "blocks/log_oak_top"
+                }
+            }
+        },
+        "axis": {
+            "y": { },
+            "z": {
+                "transform": {
+                    "translation": [0, -0.25, 0],
+                    "rotation": { "x": 90 }
+                }
+            },
+            "x": {
+                "transform": {
+                    "translation": [0, -0.25, 0],
+                    "rotation": [
+                        { "y": 90 },
+                        { "x": 90 }
+                    ]
+                }
+            },
+            "none": { }
+        },
+        "inventory": [{ }]
+    }
+}

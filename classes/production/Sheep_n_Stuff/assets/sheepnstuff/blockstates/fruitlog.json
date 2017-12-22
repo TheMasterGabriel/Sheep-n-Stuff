@@ -1,0 +1,53 @@
+{
+    "forge_marker": 1,
+    "defaults": { "transform": "forge:default-block" },
+    "variants": {
+        "variant": {
+            "mango": {
+                "textures": {
+                    "particle": "blocks/log_jungle",
+                    "leaves": "blocks/leaves_jungle",
+                    "bark": "blocks/log_jungle",
+                    "top": "blocks/log_jungle"
+                }
+            },
+            "apple": {
+                "textures": {
+                    "particle": "blocks/log_oak",
+                    "leaves": "blocks/leaves_oak",
+                    "bark": "blocks/log_oak",
+                    "top": "blocks/log_oak"
+                }
+            }
+        },
+        "leaved": {
+            "true": { "submodel": "sheepnstuff:leaves_facade" },
+            "false": { }
+        },
+        "north": {
+            "true": { "submodel": "sheepnstuff:fruitlog_side" },
+            "false": { "submodel": "sheepnstuff:fruitlog_noside" }
+        },
+        "east": {
+            "true": { "submodel": { "eastt": { "model": "sheepnstuff:fruitlog_side", "y": 90, "uvlock": true } } },
+            "false": { "submodel": { "eastf": { "model": "sheepnstuff:fruitlog_noside", "y": 90, "uvlock": true } } }
+        },
+        "south": {
+            "true": { "submodel": { "southt": { "model": "sheepnstuff:fruitlog_side", "y": 180, "uvlock": true } } },
+            "false": { "submodel": { "southf": { "model": "sheepnstuff:fruitlog_noside", "y": 180, "uvlock": true } } }
+        },
+        "west": {
+            "true": { "submodel": { "westt": { "model": "sheepnstuff:fruitlog_side", "y": 270, "uvlock": true } } },
+            "false": { "submodel": { "westf": { "model": "sheepnstuff:fruitlog_noside", "y": 270, "uvlock": true } } }
+        },
+        "up": {
+            "true": { "submodel": { "upt": { "model": "sheepnstuff:fruitlog_side", "x": 270, "uvlock": true } } },
+            "false": { "submodel": { "upf": { "model": "sheepnstuff:fruitlog_noside", "x": 270, "uvlock": true } } }
+        },
+        "down": {
+            "true": { "submodel": { "downt": { "model": "sheepnstuff:fruitlog_side", "x": 90, "uvlock": true } } },
+            "false": { "submodel": { "downf": { "model": "sheepnstuff:fruitlog_noside", "x": 90, "uvlock": true } } }
+        },
+        "inventory": [{ }]
+    }
+}
